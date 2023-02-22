@@ -4,7 +4,7 @@ This sample is an example of how to create a JWT using Kotlin when calling the D
 
 It builds a token that is valid for 30 minutes. Please obtain a set of DoorDash Credentials (Developer ID, Key ID, and Signing Secret) in the [DoorDash Developer Portal](https://developer.doordash.com/portal/integration/drive/credentials) to use in the application.
 
-This application was built targeting Kotlin version [1.8.10](https://github.com/JetBrains/kotlin). The code source and build files provided in this repository are samples and not intended for production, and are not supported.
+This application was built targeting Kotlin version [1.8.10](https://github.com/JetBrains/kotlin) and the [Amazon Corretto 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html) JDK. The code source and build files provided in this repository are samples and not intended for production, and are not supported.
 
 ## Running Sample
 
