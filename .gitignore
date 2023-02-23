@@ -1,3 +1,22 @@
+# MacOS
+*.DS_Store
+
+# Gradle
+*.gradle/
+
+# compile
+compileKotlin/
+
+# IDEA
+META-INF/
+*SNAPSHOTjar*
+tmp/
+
+# Default ignored files
+/shelf/
+/workspace.xml
+sessions/
+
 # Compiled class file
 *.class
 
