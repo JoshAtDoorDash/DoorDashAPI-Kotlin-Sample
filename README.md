@@ -4,7 +4,7 @@ This sample is an example of how to create a JWT using Kotlin when calling the D
 
 It builds a token that is valid for 30 minutes. Please obtain a set of DoorDash Credentials (Developer ID, Key ID, and Signing Secret) in the [DoorDash Developer Portal](https://developer.doordash.com/portal/integration/drive/credentials) to use in the application.
 
-This application was built targeting Kotlin version [1.8.10](https://github.com/JetBrains/kotlin) and the [Amazon Corretto 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html) JDK. The code source and build files provided in this repository are samples and not intended for production, and are not supported.
+This application was built targeting Kotlin version [1.8.10](https://github.com/JetBrains/kotlin) and the [Amazon Corretto 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html) JDK. The code source and build files provided in this repository are samples and not intended for production, and are not supported. This sample uses an [IntelliJ IDEA](https://www.jetbrains.com/idea/) project. You may use different IDE, but this sample is configured for IntelliJ IDEA. If using a different IDE, the source you'll want to copy is in [Main.kt](source/DoorDashAPIKotlinSample/src/main/kotlin/Main.kt).
 
 ## Running Sample
 
@@ -12,7 +12,9 @@ Follow these steps to run the sample app:
 
 1. Clone repository locally.
 2. Open a terminal and navigate to the source folder.
-3. TODO
+3. Open the project located in the ```source/DoorDashAPIKotlinSample``` folder with [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+4. Open Main.kt in the editor and resolve all TODO items listed in comments, save changes.
+5. Build adn run the application.
 
 ## More About DoorDash Credentials
 
