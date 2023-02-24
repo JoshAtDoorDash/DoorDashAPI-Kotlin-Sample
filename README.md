@@ -8,7 +8,7 @@ This application was built targeting Kotlin version [1.8.10](https://github.com/
 
 This sample uses an [IntelliJ IDEA](https://www.jetbrains.com/idea/) project. You may use different IDE, but this sample is configured for IntelliJ IDEA. If using a different IDE, the source you'll want to copy is in [Main.kt](source/DoorDashAPIKotlinSample/src/main/kotlin/Main.kt).
 
-**Note**, if you are building a new project, you'll need to make sure the jvmToolchain parameter is targeting at least version 11 in the ```build.gradle/build.gradle.kts```. In this sample project, it targets version 17:
+**Note**, if you are building a new project, you'll need to make sure the ```jvmToolchain``` parameter is targeting at least version 11 in the ```build.gradle/build.gradle.kts```. In this sample project, it targets version 17:
 
     kotlin {
         jvmToolchain(17)
