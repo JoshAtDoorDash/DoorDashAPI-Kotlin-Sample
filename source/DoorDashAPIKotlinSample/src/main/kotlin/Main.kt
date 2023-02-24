@@ -9,7 +9,6 @@ import java.security.Key
 import java.time.ZoneOffset
 import java.time.ZonedDateTime
 import java.util.*
-import kotlin.collections.HashMap
 
 fun main() {
     val claims = HashMap<String, Any?>()
