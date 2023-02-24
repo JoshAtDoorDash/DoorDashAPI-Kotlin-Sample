@@ -5,13 +5,14 @@ import io.jsonwebtoken.security.Keys
 import java.net.URI
 import java.net.http.HttpClient
 import java.net.http.HttpRequest
+import java.net.http.HttpResponse
 import java.security.Key
 import java.time.ZoneOffset
 import java.time.ZonedDateTime
 import java.util.*
 import kotlin.collections.HashMap
 
-fun main(args: Array<String>) {
+fun main() {
     val claims = HashMap<String, Any?>()
 
     // Populate claims used that will be used in JWT Payload
