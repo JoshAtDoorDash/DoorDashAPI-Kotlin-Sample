@@ -1,4 +1,3 @@
-import io.jsonwebtoken.Header
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.io.Decoders
 import io.jsonwebtoken.security.Keys
@@ -41,6 +40,7 @@ fun main() {
     val deliveryId = UUID.randomUUID(); // TODO: Replace with generated system ID
 
     // Create data needed to create a new delivery
+    // TODO: Modify pickup and drop off addresses below
     val body = """{
     "external_delivery_id": "$deliveryId",
     "pickup_address": "901 Market Street 6th Floor San Francisco, CA 94103",
