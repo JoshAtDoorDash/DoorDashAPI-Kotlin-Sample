@@ -6,6 +6,12 @@ It builds a token that is valid for 30 minutes. Please obtain a set of DoorDash 
 
 This application was built targeting Kotlin version [1.8.10](https://github.com/JetBrains/kotlin) and the [Amazon Corretto 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html) JDK. The code source and build files provided in this repository are samples and not intended for production, and are not supported. This sample uses an [IntelliJ IDEA](https://www.jetbrains.com/idea/) project. You may use different IDE, but this sample is configured for IntelliJ IDEA. If using a different IDE, the source you'll want to copy is in [Main.kt](source/DoorDashAPIKotlinSample/src/main/kotlin/Main.kt).
 
+> **_NOTE:_** If you building a new project, you'll need to make sure the jvmToolchain is targeting at least version 11. This sample targets 17. 
+    kotlin {
+        jvmToolchain(17)
+    }
+
+
 ## Running Sample
 
 Follow these steps to run the sample app:
