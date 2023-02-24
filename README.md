@@ -19,10 +19,9 @@ This sample uses an [IntelliJ IDEA](https://www.jetbrains.com/idea/) project. Yo
 Follow these steps to run the sample app:
 
 1. Clone repository locally.
-2. Open a terminal and navigate to the source folder.
-3. Open the project located in the ```source/DoorDashAPIKotlinSample``` folder with [IntelliJ IDEA](https://www.jetbrains.com/idea/).
-4. Open Main.kt in the editor and resolve all TODO items listed in comments, save changes.
-5. Build adn run the application.
+2. Open the project located in the ```source/DoorDashAPIKotlinSample``` folder with [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+3. Open Main.kt in the editor and resolve all TODO items listed in comments, save changes.
+4. Build and run the application.
 
 ## More About DoorDash Credentials
 
